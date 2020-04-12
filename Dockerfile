@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 
 RUN apt-get update
-RUN apt-get install -y curl xz-utils git rsync
+RUN apt-get install -y curl xz-utils git rsync libncurses5
 
 RUN useradd circleci -m
 
